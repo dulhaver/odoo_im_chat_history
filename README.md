@@ -4,3 +4,4 @@ it adds a Menu 'IM' which provides contains a list of all internal chat messages
 
 this (saas1) Version should be ported to work for odoo 8.0 Instant Messaging [im_chat]
 
+https://github.com/OCA/OCB/tree/8.0/addons/im_chat
