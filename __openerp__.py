@@ -4,8 +4,8 @@
     "author" : "L",
     "category" : "Generic Modules/Human Resources",
     "website" : "-",
-    "description": "Adds history view to imstant messaging module.",
-    "depends" : ["im"],
+    "description": "Adds history view to instant messaging module.",
+    "depends" : ["im_chat"],
     "init_xml" : [],
     "update_xml" : ["im_view.xml"],
     "installable": True
