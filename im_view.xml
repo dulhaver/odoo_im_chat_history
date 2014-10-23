@@ -5,7 +5,7 @@
 	<field name="name">im.message.tree</field>
 	<field name="model">im.message</field>
 	<field name="arch" type="xml">
-                <tree string="IM 信息">
+                <tree string="IM">
                     <field name="date"/>
                     <field name="from_id"/>
                     <field name="to_id"/>
@@ -15,7 +15,7 @@
       </record>
 
       <!-- Top menu item -->
-        <menuitem name="IM 信息"
+        <menuitem name="IM"
             id="im_history_root"
             groups="base.group_user"
             sequence="10"/>
