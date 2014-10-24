@@ -1,12 +1,9 @@
-# this module is working under OpenERP saas1 "Instant Messaging" Module (technical name [im])
+this custom Module was built on top of OpenERP saas1 Instant Messaging [im] Module.
+It has the purpose to add a menu "IM" where you get a list of all internal instant Messages between OpenERP users and can search them with standard OE Search. That works fine under OpenERP saas1.
 
-# it adds a Menu 'IM' which lists all internal chat messages between users. 
-# These chat messages can be be filtered with the standard OpenERP Search Tool. 
-# NOTE: this is for INTERNAL chat messages
+NOTE: the "Instant Messaging" Module [im] by default stores all chat messages in the database already but it just does not provide a view to list and Search them. That is what this Module [im_history] adds to it.
 
-# this Version here (which was made for OpenERP saas1) should be ported to provide same functionality with 
-# the odoo 8.0 "Instant Messaging" [im_chat]
-# https://github.com/OCA/OCB/tree/8.0/addons/im_chat
+Now we have switched to odoo 8.0 and the internal "Instant Messaging" (it's now called [im_chat]) still does not have the functionality of showing internal instant messages.
+Only the more advanced [im_livechat] provides a messaging history. So, I want to port my saas1 module [im_history] to odoo 8.0 and call it [im_chat_history]
 
-# please note: this is NOT about the livechat (im_livechat) of odoo 8.0, which is a chat tool for 
-# external chats (customer support from a website for example) and which provides it's own 'history' functionality
+NOTE: I am not talking about [im_livechat] (which has a built-in messaging history for external chats as they come in for a support chat from a website for example)
