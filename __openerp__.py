@@ -7,6 +7,7 @@
     "description": "Adds history view to instant messaging module.",
     "depends" : ["im_chat"],
     "init_xml" : [],
-    "update_xml" : ["im_view.xml"],
+#    "update_xml" : ["im_view.xml"],
+    'data': ['im_view.xml'],
     "installable": True
 }
