@@ -3,7 +3,7 @@
     <data>
       <record id="view_im_history" model="ir.ui.view">
 	<field name="name">im.message.tree</field>
-	<field name="model">im.message</field>
+	<field name="model">im_chat.message</field>
 	<field name="arch" type="xml">
                 <tree string="IM">
                     <field name="date"/>
