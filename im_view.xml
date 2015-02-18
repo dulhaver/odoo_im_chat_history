@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-      <record id="view_im_history" model="ir.ui.view">
-	<field name="name">im.message.tree</field>
-	<field name="model">im.message</field>
-	<field name="arch" type="xml">
+        <record id="view_im_history" model="ir.ui.view">
+	    <field name="name">im.message.tree</field>
+	    <field name="model">im.message</field>
+	    <field name="arch" type="xml">
                 <tree string="IM">
                     <field name="date"/>
                     <field name="from_id"/>
                     <field name="to_id"/>
                     <field name="message"/>
                 </tree>
-	</field>
+	    </field>
       </record>
 
       <!-- Top menu item -->
