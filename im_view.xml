@@ -28,9 +28,15 @@
             <field name="view_id" ref="view_im_history"/>
         </record>
 
-	<menuitem name="Actions" id="im_history" parent="im_history_root" groups="base.group_user"/>
-        <menuitem action="open_view_im_history" id="menu_open_view_im_history" parent="im_history" sequence="20" groups="base.group_user"/>
-
-
+	<menuitem name="Actions" 
+	    id="im_history" 
+	    parent="im_history_root" 
+	    groups="base.group_user"/>
+        
+        <menuitem action="open_view_im_history" 
+            id="menu_open_view_im_history" 
+            parent="im_history" 
+            sequence="20" 
+            groups="base.group_user"/>
     </data>
 </openerp>
