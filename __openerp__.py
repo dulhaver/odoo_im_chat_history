@@ -1,8 +1,7 @@
 {
     "name": "Instant messaging history",
     "version": "1.1",
-    "author": "Laura Jarvpaa",
-    "author": "Mohammed Roshan",
+    "author": "Laura Jarvenpaa",
     "category": "Generic Modules/Messaging",
     "website": "-",
     "description": "Adds history view to instant messaging module.",
